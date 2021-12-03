@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+:root {
+    --main-purple: #6C63FF;
+}
+
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: #a241b5;
+}
+
+h3 {
+    color: rgba(0, 56, 18, .5);
+}
+
+h4 {
+    width: 200px;
+    padding: 20px;
+    cursor: wait;
+}
+
+h4:hover {
+    font-size: 20px;
+    color: red;
+}
+
+.description {
+    font-family: 'Muli', sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.a-styled, .a-styled:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.a-styled:hover {
+    color: red;
+}
+
+.button1 {
+    margin-top: 10px;
+    background: transparent;
+    border: 2px solid var(--main-purple);
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: var(--main-purple);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    transition: background-color 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
+}
+
+.button1:hover {
+    color: white;
+    background-color: var(--main-purple);
+}
+
+td, th {
+    padding: 10px;
+}
+
+th { 
+    background-color: green;
+}
+
+td {
+    background-color: lightgreen;
+    transition: background-color 0.5s ease;
+}
+
+td:hover {
+    background-color: rgb(80, 156, 80);
+}
